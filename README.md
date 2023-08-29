@@ -37,4 +37,39 @@ Afterward, I imported the employee sample data into the Project database using M
 
 ## SQL Queries and Analysis
 
+### Sample Analysis Questions:
+
+--1. How many employees are there in each department?
+
+SELECT department, COUNT(DISTINCT employee_id) AS num_of_employees
+FROM employees
+GROUP BY department
+ORDER BY num_of_employees;
+
+![](1.jpg)
+
+This query groups the employees by their department and calculates the count of employees in each department using the COUNT aggregate function. The result shows the department and the corresponding number of employees in that department.
+
+
+--2. What is the average age of employees in the Sales department?
+
+SELECT department, ROUND(AVG(age), 2) AS avg_age
+FROM employees
+WHERE department = 'Sales'
+GROUP BY department;
+
+![](2.jpg)
+
+This query calculates the average age of employees in the Sales department directly from the "age" column.
+
+--3. Who are the top 5 highest-paid employees in the company?
+
+SELECT TOP 5 full_name, annual_salary
+FROM employees
+ORDER BY annual_salary DESC;
+
+![](3.jpg)
+
+
+
 

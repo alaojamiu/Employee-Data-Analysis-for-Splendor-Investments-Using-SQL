@@ -236,8 +236,7 @@ _This query calculates the average, minimum, and maximum bonus percentages for e
 The Employee Data Analysis Report provides valuable insights into the organization's workforce dynamics, highlighting areas of strength and opportunities for improvement. By implementing the recommended strategies, the organization can optimize its human resource management practices, leading to increased employee satisfaction, better retention rates, and enhanced overall performance.
 
 
-`
-
+I designed an interactive dashboard on Powerbi at the end of the project, You can interact with the interactive dashboard [here]( https://app.powerbi.com/view?r=eyJrIjoiN2U4OGIxNzQtZDAyOS00M2RhLWI1MjgtZWQzZDM0ZWYwMGNlIiwidCI6ImY1OWE1ZDBkLThmNDEtNGNhNS05MmE5LTI3MDM1ZjMwNDZiOCJ9) 
 
 
 
